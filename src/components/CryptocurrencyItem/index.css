@@ -1,0 +1,78 @@
+/* Write your CSS code here */
+@media screen and (min-width: 768px) {
+  .CryptocurrencyItem-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .img-name-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .usd-euro-values {
+    display: flex;
+    flex-direction: row;
+  }
+  .imageUrl {
+    height: 20px;
+    margin-right: 5px;
+    margin-left: 10px;
+  }
+  .currencyName {
+    font-size: 15px;
+    color: #ffffff;
+  }
+
+  .usdValue {
+    font-size: 20px;
+    color: #ffffff;
+    margin-right: 70px;
+    width: 80px;
+  }
+  .euroValue {
+    font-size: 20px;
+    color: #ffffff;
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .CryptocurrencyItem-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .img-name-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .usd-euro-values {
+    display: flex;
+    flex-direction: row;
+  }
+  .imageUrl {
+    height: 20px;
+    margin-right: 5px;
+    margin-left: 10px;
+  }
+  .currencyName {
+    font-size: 15px;
+    color: #ffffff;
+  }
+
+  .usdValue {
+    font-size: 13px;
+    color: #ffffff;
+    margin-right: 40px;
+    width: 50px;
+  }
+  .euroValue {
+    font-size: 13px;
+    color: #ffffff;
+    margin-right: 10px;
+  }
+}

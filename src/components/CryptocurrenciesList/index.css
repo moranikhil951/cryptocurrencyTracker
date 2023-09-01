@@ -1,0 +1,102 @@
+/* Write your CSS code here */
+
+.cryptocurrency-list-container {
+  display: flex;
+  flex-direction: column;
+  padding: 80px;
+  justify-content: center;
+}
+@media screen and (min-width: 768px) {
+  .cryptocurrency-list-container {
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+    justify-content: center;
+  }
+  .head-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #092e33;
+  }
+
+  .usd-euro-flex {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .coin-heading {
+    color: white;
+    font-size: 25px;
+    margin-left: 10px;
+  }
+
+  .coin-heading-usd {
+    color: white;
+    font-size: 25px;
+    margin-right: 80px;
+  }
+  .coin-heading-euro {
+    color: white;
+    font-size: 25px;
+    margin-right: 10px;
+  }
+
+  .unOrdered-list {
+    border: 2px #00e7ff solid;
+    padding: 0;
+  }
+  .heading {
+    color: #00e7ff;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cryptocurrency-list-container {
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+    justify-content: center;
+  }
+  .head-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #092e33;
+  }
+
+  .usd-euro-flex {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .coin-heading {
+    color: white;
+    font-size: 15px;
+    margin-left: 7px;
+  }
+
+  .coin-heading-usd {
+    color: white;
+    font-size: 15px;
+    margin-right: 50px;
+  }
+  .coin-heading-euro {
+    color: white;
+    font-size: 15px;
+    margin-right: 7px;
+  }
+
+  .unOrdered-list {
+    border: 2px #00e7ff solid;
+    padding: 0;
+  }
+  .heading {
+    color: #00e7ff;
+    text-align: center;
+  }
+  .imageCurrency {
+    height: 100px;
+  }
+}
